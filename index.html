@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Bootstrap 4-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Custom Stylesheet-->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>JS Clock</title>
+
+  </head>
+
+  <body onload="updateClock(); setInterval('updateClock()', 1000);">
+
+  	<div class="container">
+			<br/>
+			<h1 class="text-center">Welcome! The current time is:</h1>
+			<hr/>
+			<h1 class="clock text-center">-</h1>
+			<hr/>
+			<img class="col-sm-6" src="https://images.pexels.com/photos/280264/pexels-photo-280264.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="A clock." />
+		</div>
+
+    <script type="text/javascript" src="index.js"></script>
+
+  </body>
+
+</html>
